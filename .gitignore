@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# User uploaded content
+media/**
+!media/**/
+!media/**/.gitkeep
+private_media/**
+!private_media/**/
+!private_media/**/.gitkeep
